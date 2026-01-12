@@ -1,0 +1,22 @@
+## 📁 Project Structure
+
+machine-learning-study/
+│
+├── README.md
+│
+├── data/
+│ ├── raw/ # Dữ liệu gốc (CSV, chưa xử lý)
+│ └── processed/ # Dữ liệu đã làm sạch / biến đổi
+│
+├── notebooks/
+│ ├── pandas_basics.ipynb # Làm quen với Pandas và EDA cơ bản
+│ ├── melbourne_eda.ipynb # Khám phá dữ liệu Melbourne Housing
+│ └── iowa_model.ipynb # Model dự đoán giá nhà Iowa
+│
+├── models/
+│ └── decision_tree.pkl # Model đã train và lưu lại
+│
+└── notes/
+└── mistakes.md # Ghi chú lỗi sai và bài học rút ra
+Cấu trúc thư mục được thiết kế để tách biệt rõ dữ liệu, notebook, model và ghi chú,
+giúp việc học và quản lý project Machine Learning có hệ thống.
